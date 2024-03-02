@@ -3,7 +3,7 @@
   <PropertyGroup>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <LangVersion>latest</LangVersion>
-    <TargetFrameworks>net7.0; net6.0; netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net8.0;</TargetFrameworks>
 
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
@@ -24,10 +24,10 @@ DangerousWorldExtension can now return the Slot for an entity, used for dangerou
 Checking a default entity or reference for IsAlive now returns false.
 Archetypes with zero entities are now skipped during iteration.
 BitSets are now vectorized, resulting in faster checks when large amounts of components are used.
-.SetEntities for Archetypes as a dangerous util. 
+.SetEntities for Archetypes as a dangerous util.
 Added native-AOT Support:
 Faster single .add and .remove operations.
-Querys can not iterate "empty" entities. 
+Querys can not iterate "empty" entities.
 Removed in Entity modifier for improved performance. </PackageReleaseNotes>
     <PackageTags>c#;.net;.net6;.net7;ecs;game;entity;gamedev; game-development; game-engine; entity-component-system;stride;unity;godot;</PackageTags>
 
